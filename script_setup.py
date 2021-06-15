@@ -1,16 +1,9 @@
 import subprocess
 import sys
-
+import os
+import wget
 def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-# Install Conda
-install("wget")
-import wget
-url="https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86.sh"
-wget.download(url)
-
-import os
-os.system("sha256sum Miniconda3-latest-Linux-x86.sh")
 # install packages required for script: "fftw3","matplotlib","numpy"
 import conda.cli.python_api as Conda
 import sys
