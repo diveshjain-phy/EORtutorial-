@@ -1,7 +1,6 @@
 import subprocess
 import sys
 import os
-import wget
 def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 # install packages required for script: "fftw3","matplotlib","numpy"
