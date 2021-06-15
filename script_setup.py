@@ -16,8 +16,10 @@ import sys
 )
 
 
+subprocess.call('conda install matplotlib',shell=True)
+subprocess.call('conda install numpy',shell=True)
+subprocess.call('conda install ipykernel',shell=True)
 
-(stdout_str, stderr_str, return_code_int) = Conda.run_command(Conda.Commands.INSTALL,[ 'numpy', 'matplotlib', 'ipykernel' ],use_exception_handler=True,stdout=sys.stdout,stderr=sys.stderr,search_path=Conda.SEARCH_PATH)
 # Install script
 subprocess.call("apt-get install git", shell=True)
 subprocess.call('git clone https://bitbucket.org/rctirthankar/script', shell = True)
