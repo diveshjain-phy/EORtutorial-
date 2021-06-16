@@ -19,7 +19,7 @@ subprocess.call('git clone https://bitbucket.org/rctirthankar/script', shell = T
 cwd = os.getcwd()
 os.chdir(cwd+'/script')
 
-subprocess.call('python2 setup.py install --user',shell=True)
+subprocess.call('python setup.py install --user',shell=True)
 
 os.chdir('/root')
 
