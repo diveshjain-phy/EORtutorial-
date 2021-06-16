@@ -9,6 +9,8 @@ subprocess.call("apt-get install fftw3 fftw3-dev", shell=True)
 subprocess.call("apt-get install libfftw3-dev libfftw3-doc", shell=True)
 install("matplotlib")
 install("numpy")
+install("cosmolopy")
+install("scipy")
 
 
 
