@@ -11,7 +11,7 @@ install("matplotlib")
 install("numpy")
 install("cosmolopy")
 install("scipy")
-
+install("ipykernel")
 
 
 # Install script
