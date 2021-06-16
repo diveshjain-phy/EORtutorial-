@@ -6,8 +6,8 @@ def install(package):
 # install packages required for script: "fftw3","matplotlib","numpy"
 
 
-wget("matplotlib")
-wget("numpy")
+install("matplotlib")
+install("numpy")
 
 
 
