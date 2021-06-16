@@ -16,6 +16,7 @@ import conda.cli.python_api as Conda
 
 subprocess.call('conda install matplotlib',shell=True)
 subprocess.call('conda install numpy',shell=True)
+subprocess.call('conda install ipykernel',shell=True)
 
 
 # Install script
