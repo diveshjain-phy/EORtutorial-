@@ -4,7 +4,7 @@ import os
 def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 # install packages required for script: "fftw3","matplotlib","numpy"
-import conda.cli.python_api as Conda
+
 
 wget("matplotlib")
 wget("numpy")
